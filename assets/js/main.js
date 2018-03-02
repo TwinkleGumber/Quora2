@@ -59,7 +59,7 @@ function myFunction(){
 </div>        */
 
       $.ajax({
-      url: 'http://acadprojects.com/py/explora/question?page=0&type=trending',
+      url: 'https://acadprojects.com/py/explora/question?page=0&type=trending',
       type: 'GET',
       success: function(result){
         console.log(result);
